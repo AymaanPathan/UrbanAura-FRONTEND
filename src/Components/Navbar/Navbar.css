@@ -1,0 +1,41 @@
+
+ .logo-icon{
+        font-size: 2vw;
+    }
+    .nav{
+        font-size: 14px;
+        display: flex;
+        gap: 14px;
+        align-items: center;
+        justify-content: start;
+    }
+    .reg-btn{
+        font-size: 1vw;
+    }
+    .user {
+        margin-left: 3px;
+        gap: 14px;
+    }
+
+    
+@media (max-width:600px) {
+    .logo-icon{
+        font-size: 6vw;
+        margin-left: 22vw;
+    }
+    .nav{
+        font-size: 3vw;
+        display: flex;
+        gap: 14px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .reg-btn{
+        font-size: 3vw;
+    }
+    .user {
+        margin-left: 3px;
+        gap: 14px;
+    }
+}
+
